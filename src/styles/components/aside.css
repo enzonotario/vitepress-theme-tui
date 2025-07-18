@@ -1,0 +1,20 @@
+@layer components {
+  .VPDocAsideOutline .content {
+    border-left: var(--vp-tui-aside-border-width) var(--vp-tui-aside-border-style) var(--vp-tui-aside-border-color) !important;
+  }
+
+  .VPDocAsideOutline .outline-marker {
+    width: 0 !important;
+  }
+  .VPDocAsideOutline .outline-marker::before {
+    content: '>' !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: -2px !important;
+    color: var(--vp-tui-aside-marker-fg) !important;
+    background-color: var(--vp-tui-aside-marker-bg) !important;
+    transition:
+      left 0.2s,
+      background-color 0.2s !important;
+  }
+}

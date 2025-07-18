@@ -1,0 +1,111 @@
+@layer components {
+  .custom-block {
+    border: var(--vp-tui-border-width) solid var(--vp-tui-border-color) !important;
+    border-radius: var(--vp-tui-border-radius) !important;
+    background-color: var(--vp-tui-c-bg) !important;
+    margin-top: 28px !important;
+  }
+
+  .custom-block-title {
+    margin-top: -28px !important;
+    align-self: flex-start !important;
+    justify-self: flex-start !important;
+  }
+  .custom-block-title:before,
+  .custom-block-title:after {
+    content: '' !important;
+    width: 8px !important;
+    height: 8px !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+  }
+
+  .custom-block.info {
+    border-color: var(--vp-tui-custom-block-info-border) !important;
+    background-color: var(--vp-tui-custom-block-info-bg) !important;
+    color: var(--vp-tui-custom-block-info-fg) !important;
+  }
+  .custom-block.info .custom-block-title {
+    background-color: var(--vp-tui-custom-block-info-title-bg) !important;
+    color: var(--vp-tui-custom-block-info-title-fg) !important;
+  }
+
+  .custom-block.note {
+    border-color: var(--vp-tui-custom-block-note-border) !important;
+    background-color: var(--vp-tui-custom-block-note-bg) !important;
+    color: var(--vp-tui-custom-block-note-fg) !important;
+  }
+  .custom-block.note .custom-block-title {
+    background-color: var(--vp-tui-custom-block-note-title-bg) !important;
+    color: var(--vp-tui-custom-block-note-title-fg) !important;
+  }
+
+  .custom-block.tip {
+    border-color: var(--vp-tui-custom-block-tip-border) !important;
+    background-color: var(--vp-tui-custom-block-tip-bg) !important;
+    color: var(--vp-tui-custom-block-tip-fg) !important;
+  }
+  .custom-block.tip .custom-block-title {
+    background-color: var(--vp-tui-custom-block-tip-title-bg) !important;
+    color: var(--vp-tui-custom-block-tip-title-fg) !important;
+  }
+
+  .custom-block.important {
+    border-color: var(--vp-tui-custom-block-important-border) !important;
+    background-color: var(--vp-tui-custom-block-important-bg) !important;
+    color: var(--vp-tui-custom-block-important-fg) !important;
+  }
+  .custom-block.important .custom-block-title {
+    background-color: var(--vp-tui-custom-block-important-title-bg) !important;
+    color: var(--vp-tui-custom-block-important-title-fg) !important;
+  }
+
+  .custom-block.warning {
+    border-color: var(--vp-tui-custom-block-warning-border) !important;
+    background-color: var(--vp-tui-custom-block-warning-bg) !important;
+    color: var(--vp-tui-custom-block-warning-fg) !important;
+  }
+  .custom-block.warning .custom-block-title {
+    background-color: var(--vp-tui-custom-block-warning-title-bg) !important;
+    color: var(--vp-tui-custom-block-warning-title-fg) !important;
+  }
+
+  .custom-block.danger {
+    border-color: var(--vp-tui-custom-block-danger-border) !important;
+    background-color: var(--vp-tui-custom-block-danger-bg) !important;
+    color: var(--vp-tui-custom-block-danger-fg) !important;
+  }
+  .custom-block.danger .custom-block-title {
+    background-color: var(--vp-tui-custom-block-danger-title-bg) !important;
+    color: var(--vp-tui-custom-block-danger-title-fg) !important;
+  }
+
+  .custom-block.caution {
+    border-color: var(--vp-tui-custom-block-caution-border) !important;
+    background-color: var(--vp-tui-custom-block-caution-bg) !important;
+    color: var(--vp-tui-custom-block-caution-fg) !important;
+  }
+  .custom-block.caution .custom-block-title {
+    background-color: var(--vp-tui-custom-block-caution-title-bg) !important;
+    color: var(--vp-tui-custom-block-caution-title-fg) !important;
+  }
+
+  .custom-block.details {
+    border-color: var(--vp-tui-custom-block-details-border) !important;
+    background-color: var(--vp-tui-custom-block-details-bg) !important;
+    color: var(--vp-tui-custom-block-details-fg) !important;
+  }
+  .custom-block.details summary {
+    margin-top: -28px !important;
+    background-color: var(--vp-tui-custom-block-details-summary-bg) !important;
+    align-self: flex-start !important;
+    justify-self: flex-start !important;
+  }
+  .custom-block.details summary:after {
+    content: '' !important;
+    width: 8px !important;
+    height: 8px !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+  }
+}

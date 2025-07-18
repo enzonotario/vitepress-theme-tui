@@ -1,0 +1,56 @@
+@layer components {
+  .vp-adaptive-theme:not(.vp-code-group) {
+    background-color: var(--vp-tui-code-group-bg) !important;
+    border-radius: var(--vp-tui-code-group-border-radius) !important;
+    border-style: var(--vp-tui-code-group-border-style) !important;
+    border-color: var(--vp-tui-code-group-border-color) !important;
+    border-width: var(--vp-tui-code-group-border-width) !important;
+  }
+
+  .vp-code-group .tabs {
+    background-color: var(--vp-tui-code-group-tabs-bg) !important;
+    border-style: var(--vp-tui-code-group-tabs-border-style) !important;
+    border-color: var(--vp-tui-code-group-tabs-border-color) !important;
+    border-width: var(--vp-tui-code-group-tabs-border-width) var(--vp-tui-code-group-tabs-border-width)
+      var(--vp-tui-code-group-tabs-border-width) var(--vp-tui-code-group-tabs-border-width) !important;
+    padding: 0 !important;
+  }
+  .vp-code-group.vp-adaptive-theme,
+  .vp-code-group > .blocks {
+    border-style: var(--vp-tui-code-group-border-style) !important;
+    border-color: var(--vp-tui-code-group-border-color) !important;
+    border-width: 0 var(--vp-tui-code-group-tabs-border-width) var(--vp-tui-code-group-tabs-border-width)
+      var(--vp-tui-code-group-tabs-border-width) !important;
+  }
+  .vp-code-group.vp-adaptive-theme,
+  .vp-code-group > .blocks > .vp-adaptive-theme {
+    border: none !important;
+  }
+
+  .vp-code-group .tabs label {
+    height: 28px !important;
+    line-height: 28px !important;
+  }
+
+  .vp-code-group input:checked + label {
+    background-color: var(--vp-tui-code-group-tabs-label-bg-active) !important;
+    color: var(--vp-tui-code-group-tabs-label-fg-active) !important;
+  }
+
+  .vp-code-group input:checked + label:after {
+    width: 0 !important;
+    height: 0 !important;
+    background-color: transparent !important;
+  }
+
+  .vp-doc [class*='language-'] > button.copy {
+    border-radius: var(--vp-tui-code-copy-border-radius) !important;
+    background-color: var(--vp-tui-code-copy-bg) !important;
+    border: var(--vp-tui-code-copy-border-width) solid var(--vp-tui-code-copy-border-color) !important;
+  }
+  .vp-doc [class*='language-'] > button.copy:hover,
+  .vp-doc [class*='language-'] > button.copy.copied {
+    background-color: var(--vp-tui-code-copy-bg-hover) !important;
+    border-color: var(--vp-tui-code-copy-border-color-hover) !important;
+  }
+}

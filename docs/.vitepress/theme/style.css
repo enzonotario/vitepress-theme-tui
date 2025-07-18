@@ -1,0 +1,9 @@
+.VPHero {
+  .name {
+    max-width: 800px;
+  }
+
+  .text {
+    max-width: 700px;
+  }
+}

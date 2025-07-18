@@ -1,0 +1,5 @@
+@layer components {
+  hr {
+    border-top: var(--vp-tui-hr-border-top) !important;
+  }
+}

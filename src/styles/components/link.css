@@ -1,0 +1,27 @@
+@layer components {
+  .vp-doc a {
+    color: var(--vp-tui-link-fg) !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid var(--vp-tui-link-border-color) !important;
+    transition:
+      color 0.2s,
+      border-color 0.2s !important;
+    padding: 0 2px !important;
+  }
+
+  .vp-doc a:hover,
+  .vp-doc a:active:hover,
+  .vp-doc a:visited:hover {
+    color: var(--vp-tui-link-hover-fg) !important;
+    border-bottom: 1px solid var(--vp-tui-link-hover-border-color) !important;
+    background-color: var(--vp-tui-link-hover-bg) !important;
+  }
+
+  .vp-doc a:active {
+    color: var(--vp-tui-link-active-fg) !important;
+  }
+
+  .vp-doc a:visited {
+    color: var(--vp-tui-link-visited-fg) !important;
+  }
+}

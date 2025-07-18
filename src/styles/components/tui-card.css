@@ -1,0 +1,120 @@
+@layer components {
+  :root {
+    --vp-tui-card-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-card-bg: var(--vp-tui-c-bg);
+    --vp-tui-card-fg: #27272a;
+    --vp-tui-card-border-width: var(--vp-tui-border-width);
+    --vp-tui-card-padding: 16px 16px 8px;
+    --vp-tui-card-shadow: none;
+
+    --vp-tui-card-title-font-size: var(--vp-custom-block-font-size);
+    --vp-tui-card-title-padding: 0 8px;
+
+    --vp-tui-card-border-color: #18181b;
+    --vp-tui-card-title-bg: #18181b;
+    --vp-tui-card-title-fg: #f4f4f5;
+
+    --vp-tui-card-primary-border-color: #047857;
+    --vp-tui-card-primary-title-bg: #047857;
+    --vp-tui-card-primary-title-fg: #f4f4f5;
+  }
+
+  .dark {
+    --vp-tui-card-fg: #e4e4e7;
+
+    --vp-tui-card-border-color: #e4e4e7;
+    --vp-tui-card-title-bg: #e4e4e7;
+    --vp-tui-card-title-fg: #09090b;
+  }
+
+  .tui-card.sm {
+    --vp-tui-card-border-radius: 4px;
+    --vp-tui-card-padding: 8px 8px 4px;
+    --vp-tui-card-shadow: var(--vp-tui-shadow);
+    --vp-tui-card-title-font-size: 12px;
+  }
+
+  .tui-card.xs {
+    --vp-tui-card-border-radius: 4px;
+    --vp-tui-card-padding: 4px 4px 2px;
+    --vp-tui-card-shadow: var(--vp-tui-shadow);
+    --vp-tui-card-title-font-size: 10px;
+  }
+
+  .tui-card {
+    border-radius: var(--vp-tui-card-border-radius);
+    /*background-color: var(--vp-tui-card-bg);*/
+    border: var(--vp-tui-card-border-width) solid var(--vp-tui-card-border-color);
+    padding: var(--vp-tui-card-padding);
+    /*color: var(--vp-tui-card-fg);*/
+    box-shadow: var(--vp-tui-card-shadow);
+    position: relative;
+    margin: 28px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tui-card .tui-card-title {
+    margin-top: -30px;
+    background-color: var(--vp-tui-card-title-bg);
+    color: var(--vp-tui-card-title-fg);
+    font-size: var(--vp-tui-card-title-font-size);
+    line-height: 1.5;
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .tui-card.sm .tui-card-title {
+    margin-top: -20px;
+  }
+  .tui-card.xs .tui-card-title {
+    margin-top: -14px;
+  }
+
+  .tui-card .tui-card-title:before,
+  .tui-card .tui-card-title:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .tui-card .tui-card-content {
+    margin-top: 0.5rem;
+  }
+
+  /* Card variations */
+  .tui-card.primary {
+    border-color: var(--vp-tui-card-primary-border-color);
+  }
+  .tui-card.primary .tui-card-title {
+    background-color: var(--vp-tui-card-primary-title-bg);
+    color: var(--vp-tui-card-primary-title-fg);
+  }
+
+  .tui-card.info {
+    border-color: var(--vp-tui-custom-block-info-border);
+  }
+  .tui-card.info .tui-card-title {
+    background-color: var(--vp-tui-custom-block-info-title-bg);
+    color: var(--vp-tui-custom-block-info-title-fg);
+  }
+
+  .tui-card.warning {
+    border-color: var(--vp-tui-custom-block-warning-border);
+  }
+  .tui-card.warning .tui-card-title {
+    background-color: var(--vp-tui-custom-block-warning-title-bg);
+    color: var(--vp-tui-custom-block-warning-title-fg);
+  }
+
+  .tui-card.danger {
+    border-color: var(--vp-tui-custom-block-danger-border);
+  }
+  .tui-card.danger .tui-card-title {
+    background-color: var(--vp-tui-custom-block-danger-title-bg);
+    color: var(--vp-tui-custom-block-danger-title-fg);
+  }
+}

@@ -1,0 +1,13 @@
+@layer base {
+  :root {
+    --vp-tui-c-bg: var(--vp-c-bg);
+    --vp-tui-border-radius: 0;
+    --vp-tui-border-width: 2px;
+    --vp-tui-font-family: 'IBM Plex Mono', monospace;
+  }
+
+  * {
+    border-radius: var(--vp-tui-border-radius) !important;
+    font-family: var(--vp-tui-font-family) !important;
+  }
+}

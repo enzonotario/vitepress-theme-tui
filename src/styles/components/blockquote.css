@@ -1,0 +1,6 @@
+@layer components {
+  .vp-doc blockquote {
+    border-left-color: var(--vp-tui-blockquote-border-color) !important;
+    border-left-style: var(--vp-tui-blockquote-border-style) !important;
+  }
+}

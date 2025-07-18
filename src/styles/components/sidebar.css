@@ -1,0 +1,80 @@
+@layer components {
+  .VPSidebar {
+    border-right: var(--vp-tui-sidebar-border-width) solid var(--vp-tui-sidebar-border-color) !important;
+  }
+
+  .VPSidebarItem .item {
+    position: relative !important;
+  }
+
+  .VPSidebarItem .item .text::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -16px !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background-color: transparent !important;
+    z-index: -1 !important;
+    transition: background-color 0.2s !important;
+  }
+
+  .VPSidebarItem .item:hover .text {
+    color: var(--vp-tui-sidebar-item-hover-fg) !important;
+  }
+
+  .VPSidebarItem .item:hover .text::before {
+    background-color: var(--vp-tui-sidebar-item-hover-bg) !important;
+  }
+
+  .VPSidebarItem.is-active > .item .text {
+    font-weight: var(--vp-tui-sidebar-item-active-font-weight) !important;
+  }
+
+  .VPSidebarItem.is-active > .item > .indicator {
+    position: relative !important;
+    width: 0 !important;
+  }
+
+  .VPSidebarItem.is-active > .item > .indicator::before {
+    content: '>' !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: -2px !important;
+    color: var(--vp-c-brand-1) !important;
+    background-color: var(--vp-sidebar-bg-color) !important;
+    transition:
+      left 0.2s,
+      background-color 0.2s !important;
+  }
+
+  .VPSidebarItem.is-active > .item:hover > .indicator::before {
+    left: 3px !important;
+    background-color: var(--vp-tui-sidebar-item-active-indicator-bg) !important;
+    color: var(--vp-tui-sidebar-item-hover-fg) !important;
+  }
+
+  .VPSidebarItem .items {
+    padding-left: 16px !important;
+    border-left: 1px dashed var(--vp-tui-sidebar-border-color) !important;
+  }
+
+  .VPNavBar.has-sidebar .wrapper {
+    background-color: var(--vp-nav-bg-color) !important;
+  }
+  .VPNavBar.has-sidebar .content-body {
+    background-color: transparent !important;
+  }
+
+  .VPNavBarTitle a.title {
+    border-bottom: none !important;
+  }
+
+  .VPNavBar .divider {
+    display: none !important;
+  }
+
+  .VPNav {
+    border-bottom: var(--vp-tui-sidebar-border-width) solid var(--vp-tui-sidebar-border-color) !important;
+  }
+}
