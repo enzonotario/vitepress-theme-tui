@@ -1,0 +1,54 @@
+{
+  "name": "vitepress-theme-tui",
+  "description": "A terminal UI theme for VitePress",
+  "version": "0.0.1",
+  "author": "Enzo Notario <hi@enzonotario.me>",
+  "license": "MIT",
+  "repository": "github:enzonotario/vitepress-theme-tui",
+  "keywords": [
+    "vitepress",
+    "vitepress-theme",
+    "terminal-ui",
+    "tui"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "dist/vitepress-theme-tui.js",
+  "module": "dist/vitepress-theme-tui.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/vitepress-theme-tui.mjs",
+      "require": "./dist/vitepress-theme-tui.js"
+    },
+    "./styles/*": "./src/styles/*",
+    "./package.json": "./package.json"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "docs:build": "vitepress build docs",
+    "dev": "vitepress dev docs",
+    "lint": "eslint . --ext .js,.vue",
+    "preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "sass": "^1.89.2"
+  },
+  "peerDependencies": {
+    "vitepress": ">=1.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@unocss/postcss": "^66.3.3",
+    "@unocss/preset-typography": "^66.3.3",
+    "@unocss/preset-web-fonts": "^66.3.3",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "unocss": "^66.3.3",
+    "vite": "^7.0.4",
+    "vitepress": "^1.6.3"
+  },
+  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac"
+}

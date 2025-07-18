@@ -1,0 +1,25 @@
+/*:root {
+    --vp-c-brand-1: theme('colors.emerald.700');
+    --vp-c-brand-2: theme('colors.emerald.800');
+    --vp-c-brand-3: theme('colors.zinc.800');
+    --vp-button-brand-text: theme('colors.zinc.100');
+    --vp-button-brand-hover-text: theme('colors.zinc.50');
+}
+
+.dark {
+    --vp-c-brand-1: theme('colors.emerald.300');
+    --vp-c-brand-2: theme('colors.emerald.200');
+    --vp-c-brand-3: theme('colors.zinc.100');
+    --vp-button-brand-text: theme('colors.zinc.900');
+    --vp-button-brand-hover-text: theme('colors.zinc.800');
+}*/
+
+.VPHero {
+    .name {
+        max-width: 800px;
+    }
+
+    .text {
+        max-width: 700px;
+    }
+}

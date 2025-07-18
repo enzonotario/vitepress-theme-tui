@@ -1,0 +1,23 @@
+@layer components {
+  :root {
+    --vp-tui-inline-code-bg: theme('colors.zinc.100');
+    --vp-tui-inline-code-fg: theme('colors.zinc.800');
+    --vp-tui-inline-code-border-width: 1px;
+    --vp-tui-inline-code-border-style: solid;
+    --vp-tui-inline-code-border-color: theme('colors.zinc.300');
+    --vp-tui-code-border-radius: 0;
+  }
+
+  .dark {
+      --vp-tui-inline-code-bg: theme('colors.zinc.800');
+      --vp-tui-inline-code-fg: theme('colors.zinc.100');
+      --vp-tui-inline-code-border-color: theme('colors.zinc.600');
+  }
+
+  .vp-doc :not(pre) > code {
+    background-color: var(--vp-tui-inline-code-bg) !important;
+    color: var(--vp-tui-inline-code-fg) !important;
+    border: var(--vp-tui-inline-code-border-width) var(--vp-tui-inline-code-border-style) var(--vp-tui-inline-code-border-color) !important;
+    border-radius: var(--vp-tui-code-border-radius) !important;
+  }
+}

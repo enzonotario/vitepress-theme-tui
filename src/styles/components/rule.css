@@ -1,0 +1,9 @@
+@layer components {
+    :root {
+        --vp-tui-hr-border-top: 1px dashed var(--vp-tui-border-color);
+    }
+
+    hr {
+        border-top: var(--vp-tui-hr-border-top) !important;
+    }
+}

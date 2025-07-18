@@ -1,0 +1,9 @@
+@layer components {
+    :root {
+        --vp-tui-h2-border-top: 1px dashed var(--vp-tui-border-color);
+    }
+
+    .vp-doc h2 {
+        border-top: var(--vp-tui-h2-border-top) !important;
+    }
+}

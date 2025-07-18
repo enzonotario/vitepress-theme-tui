@@ -1,0 +1,42 @@
+@layer components {
+    :root {
+        --vp-tui-table-bg: theme('colors.white');
+        --vp-tui-table-border-width: var(--vp-tui-border-width);
+        --vp-tui-table-border-color: theme('colors.zinc.800');
+        --vp-tui-table-row-alt-bg: theme('colors.zinc.300');
+        --vp-tui-table-header-bg: theme('colors.zinc.800');
+        --vp-tui-table-header-fg: theme('colors.zinc.100');
+        --vp-tui-table-header-border-color: theme('colors.zinc.300');
+    }
+
+    .dark {
+        --vp-tui-table-bg: theme('colors.black');
+        --vp-tui-table-border-color: theme('colors.zinc.200');
+        --vp-tui-table-row-alt-bg: theme('colors.zinc.800');
+        --vp-tui-table-header-bg: theme('colors.zinc.200');
+        --vp-tui-table-header-fg: theme('colors.zinc.900');
+        --vp-tui-table-header-border-color: theme('colors.zinc.800');
+    }
+
+    .vp-doc tr {
+        background-color: var(--vp-tui-table-bg) !important;
+        border-top: var(--vp-tui-table-border-width) solid var(--vp-tui-table-border-color) !important;
+    }
+
+    .vp-doc tr:nth-child(2n) {
+        background-color: var(--vp-tui-table-row-alt-bg) !important;
+    }
+
+    .vp-doc th,
+    .vp-doc td {
+        border: var(--vp-tui-table-border-width) solid var(--vp-tui-table-border-color) !important;
+    }
+
+    .vp-doc th {
+        background-color: var(--vp-tui-table-header-bg) !important;
+        color: var(--vp-tui-table-header-fg) !important;
+    }
+    .vp-doc th:not(:last-child) {
+        border-right-color: var(--vp-tui-table-header-border-color) !important;
+    }
+}

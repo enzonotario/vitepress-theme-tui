@@ -1,0 +1,15 @@
+.tui-theme-default {
+    --vp-c-brand-1: theme('colors.emerald.700');
+    --vp-c-brand-2: theme('colors.zinc.800');
+    --vp-c-brand-3: theme('colors.zinc.700');
+    --vp-button-brand-text: theme('colors.zinc.100');
+    --vp-button-brand-hover-text: theme('colors.zinc.100');
+}
+
+.dark.tui-theme-default {
+    --vp-c-brand-1: theme('colors.emerald.300');
+    --vp-c-brand-2: theme('colors.zinc.200');
+    --vp-c-brand-3: theme('colors.zinc.300');
+    --vp-button-brand-text: theme('colors.zinc.900');
+    --vp-button-brand-hover-text: theme('colors.zinc.900');
+}

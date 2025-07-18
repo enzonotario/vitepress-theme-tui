@@ -1,0 +1,47 @@
+@layer components {
+    :root {
+        --vp-tui-hero-button-border-radius: var(--vp-tui-border-radius);
+        --vp-tui-hero-feature-border-radius: var(--vp-tui-border-radius);
+        --vp-tui-hero-feature-bg: var(--vp-tui-c-bg);
+        --vp-tui-hero-feature-fg: theme('colors.zinc.800');
+        --vp-tui-hero-feature-border-width: var(--vp-tui-border-width);
+        --vp-tui-hero-feature-border-color: var(--vp-tui-border-color);
+        --vp-tui-hero-feature-title-bg: var(--vp-tui-c-bg);
+    }
+
+    .dark {
+        --vp-tui-hero-feature-fg: theme('colors.zinc.200');
+    }
+
+    a.VPButton,
+    a.VPButton.small,
+    a.VPButton.medium,
+    a.VPButton.large {
+        border-radius: var(--vp-tui-hero-button-border-radius) !important;
+    }
+
+    .VPFeature {
+        border-radius: var(--vp-tui-hero-feature-border-radius) !important;
+        background-color: var(--vp-tui-hero-feature-bg) !important;
+        border: var(--vp-tui-hero-feature-border-width) solid var(--vp-tui-hero-feature-border-color) !important;
+    }
+
+    .VPFeature .title {
+        margin-top: -36px !important;
+        background-color: var(--vp-tui-hero-feature-title-bg) !important;
+        align-self: flex-start !important;
+        justify-self: flex-start !important;
+    }
+
+    .VPFeature .title:before, .VPFeature .title:after {
+        content: "" !important;
+        width: 8px !important;
+        height: 8px !important;
+        display: inline-block !important;
+        overflow: hidden !important;
+    }
+
+    .VPFeature .details {
+        color: var(--vp-tui-hero-feature-fg) !important;
+    }
+}
