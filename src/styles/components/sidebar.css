@@ -7,24 +7,34 @@
     position: relative !important;
   }
 
-  .VPSidebarItem .item .text::before {
-    content: '' !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: -16px !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    background-color: transparent !important;
-    z-index: -1 !important;
-    transition: background-color 0.2s !important;
+  .VPSidebarItem .VPLink::before, .item > h4.text::before {
+    margin-right: 8px !important;
   }
 
-  .VPSidebarItem .item:hover .text {
+  .items > .VPSidebarItem:last-child .VPLink::before, .item > h4.text::before {
+    content: '└─' !important;
+  }
+
+  .items > .VPSidebarItem:not(:last-child) .VPLink::before {
+    content: '├─' !important;
+  }
+
+  .VPSidebarItem .item:hover .VPLink.link, .VPSidebarItem.is-active .item:hover .VPLink.link {
+    color: var(--vp-tui-sidebar-item-hover-fg) !important;
+    background-color: var(--vp-tui-sidebar-item-hover-bg) !important;
+  }
+
+  .VPSidebarItem .item:hover .VPLink.link .text {
     color: var(--vp-tui-sidebar-item-hover-fg) !important;
   }
 
-  .VPSidebarItem .item:hover .text::before {
+  .VPSidebarItem .item:hover .VPLink::before, .VPSidebarItem.is-active .item:hover .VPLink::before {
     background-color: var(--vp-tui-sidebar-item-hover-bg) !important;
+    color: var(--vp-tui-sidebar-item-hover-fg) !important;
+  }
+
+  .VPSidebarItem.is-active > .item .VPLink::before {
+    color: var(--vp-c-brand-1) !important;
   }
 
   .VPSidebarItem.is-active > .item .text {
@@ -37,7 +47,7 @@
   }
 
   .VPSidebarItem.is-active > .item > .indicator::before {
-    content: '>' !important;
+    content: '' !important;
     position: absolute !important;
     left: 0 !important;
     top: -2px !important;
@@ -56,7 +66,7 @@
 
   .VPSidebarItem .items {
     padding-left: 16px !important;
-    border-left: 1px dashed var(--vp-tui-sidebar-border-color) !important;
+    border-left: 0 !important;
   }
 
   .VPNavBar.has-sidebar .wrapper {
