@@ -53,4 +53,12 @@
     background-color: var(--vp-tui-code-copy-bg-hover) !important;
     border-color: var(--vp-tui-code-copy-border-color-hover) !important;
   }
+
+  .vp-doc [class*='language-'] {
+    margin: 0 0 16px 0 !important;
+  }
+  .vp-code-group .tabs {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
