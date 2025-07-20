@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
-import { ThemeSwitcher, useTUI } from '../../../src'
+import { useTUI } from '../../../src'
+import ThemeSwitcher from '../../../src/components/ThemeSwitcher.vue'
 import Layout from './Layout.vue'
 import 'virtual:uno.css'
 import '../../../src/styles/index.css'
