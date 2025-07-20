@@ -1,6 +1,8 @@
 import UnoCSS from 'unocss/vite'
 import { defineConfig } from 'vitepress'
 
+const gaId = process.env.GA_ID || 'G-TEST'
+
 export default defineConfig({
   title: 'VitePress Theme TUI',
   description: 'Bring the beauty of Terminal UIs to your documentation',
@@ -25,6 +27,24 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/enzonotario/vitepress-theme-tui' },
+    ],
+    footer: {
+      message: 'Released under the <a href="https://github.com/enzonotario/vitepress-theme-tui/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2025-present <a href="https://enzonotario.me">Enzo Notario</a>',
+    },
+    head: [
+      [
+        'script',
+        { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${gaId}` },
+      ],
+      [
+        'script',
+        {},
+        `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${gaId}');`,
+      ],
     ],
   },
   vite: {
