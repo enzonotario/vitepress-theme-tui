@@ -19,3 +19,6 @@ features:
   - title: Custom Components
     details: Includes custom components with terminal-style design like.
 ---
+
+> [!TIP] GitHub
+> Check out the [GitHub repository](https://github.com/enzonotario/vitepress-theme-tui).
