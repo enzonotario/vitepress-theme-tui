@@ -18,7 +18,6 @@ export default defineConfig({
             link: '/components/tui-card',
             items: [
               { text: 'TUI Card', link: '/components/tui-card' },
-              // {text: 'Theme Switcher', link: '/components/theme-switcher'},
             ],
           },
         ],

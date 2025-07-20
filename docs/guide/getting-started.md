@@ -62,33 +62,6 @@ That's it! Your VitePress site now uses the Terminal UI theme.
 
 ## Advanced Configuration
 
-### Using the Theme Switcher
-
-To add the theme switcher component to your site, modify your theme configuration:
-
-```js
-import { ThemeSwitcher } from 'vitepress-theme-tui'
-import DefaultTheme from 'vitepress/theme'
-import 'vitepress-theme-tui/style.css'
-
-export default {
-  extends: DefaultTheme,
-  enhanceApp({ app }) {
-    app.component('ThemeSwitcher', ThemeSwitcher)
-  }
-}
-```
-
-Then, you can use the component in your layout or any other component:
-
-```vue
-<template>
-  <div>
-    <ThemeSwitcher />
-  </div>
-</template>
-```
-
 ### Default Theme
 
 You can set the default theme by modifying your VitePress configuration:
