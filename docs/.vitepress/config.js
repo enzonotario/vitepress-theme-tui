@@ -32,24 +32,24 @@ export default defineConfig({
       message: 'Released under the <a href="https://github.com/enzonotario/vitepress-theme-tui/blob/main/LICENSE">MIT License</a>.',
       copyright: 'Copyright © 2025-present <a href="https://enzonotario.me">Enzo Notario</a>',
     },
-    head: [
-      [
-        'script',
-        { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${gaId}` },
-      ],
-      [
-        'script',
-        {},
-        `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '${gaId}');`,
-      ],
-    ],
   },
   vite: {
     plugins: [
       UnoCSS(),
     ],
   },
+  head: [
+    [
+      'script',
+      { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${gaId}` },
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${gaId}');`,
+    ],
+  ],
 })
