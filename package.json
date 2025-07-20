@@ -43,9 +43,6 @@
     "vitepress": ">=1.0.0",
     "vue": "^3.0.0"
   },
-  "dependencies": {
-    "sass": "^1.89.2"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "^4.17.0",
     "@unocss/eslint-plugin": "^66.3.3",
