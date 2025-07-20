@@ -9,8 +9,8 @@ hero:
       text: Get Started
       link: /guide/
     - theme: alt
-      text: View Demo
-      link: /guide/demo
+      text: View Example
+      link: /example
 features:
   - title: Terminal-Style UI
     details: A clean, terminal-inspired interface for your documentation.

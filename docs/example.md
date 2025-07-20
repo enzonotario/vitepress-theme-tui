@@ -2,7 +2,7 @@
 outline: [1,2,3]
 ---
 
-# `vitepress-theme-tui` Demo
+# `vitepress-theme-tui` Example
 
 This page demonstrates the various Markdown extensions available in VitePress with `vitepress-theme-tui`.
 
@@ -154,7 +154,7 @@ function hello() {
 ## Line Highlighting in Code Blocks
 
 ```js{2,4-6}
-function highlightDemo() {
+function highlightExample() {
   // This line is highlighted
   const message = 'Terminal UI';
   // These lines are also highlighted
@@ -166,7 +166,7 @@ function highlightDemo() {
 ## Focus in Code Blocks
 
 ```js
-function focusDemo() {
+function focusExample() {
   const message = 'Terminal UI' // [!code focus]
   console.log(message)
   return message
@@ -176,7 +176,7 @@ function focusDemo() {
 ## Colored Diffs in Code Blocks
 
 ```js
-function diffDemo() {
+function diffExample() {
   const oldMessage = 'VitePress' // [!code --]
   const newMessage = 'Terminal UI' // [!code ++]
   console.log(message)
@@ -186,7 +186,7 @@ function diffDemo() {
 ## Errors and Warnings in Code Blocks
 
 ```js
-function errorWarningDemo() {
+function errorWarningExample() {
   const error = 'This is an error' // [!code error]
   const warning = 'This is a warning' // [!code warning]
   console.log(error, warning)

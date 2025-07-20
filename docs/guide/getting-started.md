@@ -136,4 +136,4 @@ export default defineConfig({
 Now that you have installed and configured VitePress Theme TUI, you can:
 
 - Learn about the [custom components](/components/tui-card)
-- Check out the [demo page](/guide/demo) to see all the features in action
+- Check out the [Example](/example) page to see the theme in action
