@@ -1,7 +1,7 @@
 import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import { getCurrentTheme, setTheme, themes } from './themes'
 import useTUI from './useTUI.js'
-import './styles/vitepress-theme-tui.css'
+import './styles/index.css'
 
 export const styles = {
   base: './styles/base.css',

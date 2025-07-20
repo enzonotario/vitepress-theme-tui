@@ -2,7 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import { ThemeSwitcher, useTUI } from '../../../src'
 import Layout from './Layout.vue'
 import 'virtual:uno.css'
-import '../../../src/styles/vitepress-theme-tui.css'
+import '../../../src/styles/index.css'
 import './style.css'
 
 export default {

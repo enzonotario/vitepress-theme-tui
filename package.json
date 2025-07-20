@@ -21,6 +21,7 @@
       "import": "./dist/vitepress-theme-tui.js",
       "require": "./dist/vitepress-theme-tui.cjs"
     },
+    "./style.css": "./dist/vitepress-theme-tui.css",
     "./styles/*": "./src/styles/*",
     "./package.json": "./package.json"
   },
