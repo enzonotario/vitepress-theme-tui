@@ -2,13 +2,16 @@
   --vp-c-brand-1: #047857;
   --vp-c-brand-2: #27272a;
   --vp-c-brand-3: #3f3f46;
+
   --vp-button-brand-bg: #047857;
   --vp-button-brand-hover-bg: #065f46;
   --vp-button-brand-active-bg: #064e3b;
   --vp-button-brand-text: #f4f4f5;
   --vp-button-brand-hover-text: #f4f4f5;
+
   --vp-c-bg: #fafafa;
   --vp-sidebar-bg-color: #fafafa;
+
   --vp-c-text-1: #18181b;
   --vp-c-text-2: #27272a;
   --vp-c-text-3: #52525b;
@@ -18,13 +21,16 @@
   --vp-c-brand-1: #6ee7b7;
   --vp-c-brand-2: #e4e4e7;
   --vp-c-brand-3: #d4d4d8;
+
   --vp-button-brand-bg: #6ee7b7;
   --vp-button-brand-hover-bg: #34d399;
   --vp-button-brand-active-bg: #10b981;
   --vp-button-brand-text: #18181b;
   --vp-button-brand-hover-text: #18181b;
+
   --vp-c-bg: #18181b;
   --vp-sidebar-bg-color: #27272a;
+
   --vp-c-text-1: #f4f4f5;
   --vp-c-text-2: #e4e4e7;
   --vp-c-text-3: #a1a1aa;
@@ -39,7 +45,6 @@
     --vp-tui-border-width: 2px;
     --vp-tui-shadow: none;
 
-    /* Table variables */
     --vp-tui-table-bg: #ffffff;
     --vp-tui-table-border-width: var(--vp-tui-border-width);
     --vp-tui-table-border-color: #27272a;
@@ -48,7 +53,6 @@
     --vp-tui-table-header-fg: #f4f4f5;
     --vp-tui-table-header-border-color: #d4d4d8;
 
-    /* Sidebar variables */
     --vp-tui-sidebar-bg: var(--vp-c-bg);
     --vp-tui-sidebar-border-color: var(--vp-tui-border-color);
     --vp-tui-sidebar-border-width: var(--vp-tui-border-width);
@@ -58,22 +62,9 @@
     --vp-tui-sidebar-item-hover-bg: #27272a;
     --vp-tui-sidebar-item-hover-fg: #f4f4f5;
 
-    /* Rule variables */
+    --vp-tui-h2-border-top: 1px dashed var(--vp-tui-border-color);
     --vp-tui-hr-border-top: 1px dashed var(--vp-tui-border-color);
 
-    /* Heading variables */
-    --vp-tui-h2-border-top: 1px dashed var(--vp-tui-border-color);
-
-    /* Hero variables */
-    --vp-tui-hero-button-border-radius: var(--vp-tui-border-radius);
-    --vp-tui-hero-feature-border-radius: var(--vp-tui-border-radius);
-    --vp-tui-hero-feature-bg: var(--vp-tui-c-bg);
-    --vp-tui-hero-feature-fg: #27272a;
-    --vp-tui-hero-feature-border-width: var(--vp-tui-border-width);
-    --vp-tui-hero-feature-border-color: var(--vp-tui-border-color);
-    --vp-tui-hero-feature-title-bg: var(--vp-tui-c-bg);
-
-    /* Link variables */
     --vp-tui-link-fg: #52525b;
     --vp-tui-link-active-fg: #18181b;
     --vp-tui-link-visited-fg: #c026d3;
@@ -82,7 +73,6 @@
     --vp-tui-link-hover-bg: #27272a;
     --vp-tui-link-hover-border-color: #d4d4d8;
 
-    /* Inline Code variables */
     --vp-tui-inline-code-bg: #f4f4f5;
     --vp-tui-inline-code-fg: #27272a;
     --vp-tui-inline-code-border-width: 1px;
@@ -90,20 +80,17 @@
     --vp-tui-inline-code-border-color: #d4d4d8;
     --vp-tui-code-border-radius: 0;
 
-    /* Blockquote variables */
     --vp-tui-blockquote-border-color: var(--vp-tui-border-color);
     --vp-tui-blockquote-border-style: dashed;
     --vp-tui-blockquote-bg: var(--vp-tui-c-bg);
     --vp-tui-blockquote-fg: inherit;
 
-    /* Aside variables */
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
     --vp-tui-aside-marker-bg: var(--vp-tui-c-bg);
     --vp-tui-aside-marker-fg: var(--vp-c-brand-1);
 
-    /* Code Group variables */
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;
     --vp-tui-code-group-border-color: #18181b;
@@ -122,7 +109,14 @@
     --vp-tui-code-copy-border-color-hover: #3f3f46;
     --vp-tui-code-copy-border-width: 1px;
 
-    /* Custom Blocks variables */
+    --vp-tui-hero-button-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-hero-feature-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-hero-feature-bg: var(--vp-tui-c-bg);
+    --vp-tui-hero-feature-fg: #27272a;
+    --vp-tui-hero-feature-border-width: var(--vp-tui-border-width);
+    --vp-tui-hero-feature-border-color: var(--vp-tui-border-color);
+    --vp-tui-hero-feature-title-bg: var(--vp-tui-c-bg);
+
     --vp-tui-custom-block-info-accent: #1e40af;
     --vp-tui-custom-block-info-accent-fg: #dbeafe;
     --vp-tui-custom-block-info-border: var(--vp-tui-custom-block-info-accent);
@@ -195,7 +189,6 @@
     --vp-tui-border-width: 2px;
     --vp-tui-shadow: none;
 
-    /* Table variables */
     --vp-tui-table-bg: #000000;
     --vp-tui-table-border-color: #e4e4e7;
     --vp-tui-table-row-alt-bg: #27272a;
@@ -203,15 +196,10 @@
     --vp-tui-table-header-fg: #18181b;
     --vp-tui-table-header-border-color: #27272a;
 
-    /* Sidebar variables */
     --vp-tui-sidebar-item-active-indicator-bg: #e4e4e7;
     --vp-tui-sidebar-item-hover-bg: #e4e4e7;
     --vp-tui-sidebar-item-hover-fg: #18181b;
 
-    /* Hero variables */
-    --vp-tui-hero-feature-fg: #e4e4e7;
-
-    /* Link variables */
     --vp-tui-link-fg: #a1a1aa;
     --vp-tui-link-active-fg: #e4e4e7;
     --vp-tui-link-visited-fg: #c084fc;
@@ -220,25 +208,21 @@
     --vp-tui-link-hover-bg: #f4f4f5;
     --vp-tui-link-hover-border-color: #52525b;
 
-    /* Inline Code variables */
     --vp-tui-inline-code-bg: #27272a;
     --vp-tui-inline-code-fg: #f4f4f5;
     --vp-tui-inline-code-border-color: #52525b;
 
-    /* Blockquote variables */
     --vp-tui-blockquote-border-color: var(--vp-tui-border-color);
     --vp-tui-blockquote-border-style: dashed;
     --vp-tui-blockquote-bg: var(--vp-tui-c-bg);
     --vp-tui-blockquote-fg: inherit;
 
-    /* Aside variables */
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
     --vp-tui-aside-marker-bg: var(--vp-tui-c-bg);
     --vp-tui-aside-marker-fg: var(--vp-c-brand-1);
 
-    /* Code Group variables */
     --vp-tui-code-group-border-color: #d4d4d8;
     --vp-tui-code-group-tabs-bg: #27272a;
     --vp-tui-code-group-tabs-border-color: var(--vp-tui-border-color);
@@ -249,7 +233,8 @@
     --vp-tui-code-copy-border-color: #71717a;
     --vp-tui-code-copy-border-color-hover: #a1a1aa;
 
-    /* Custom Blocks variables */
+    --vp-tui-hero-feature-fg: #e4e4e7;
+
     --vp-tui-custom-block-info-accent: #60a5fa;
     --vp-tui-custom-block-info-accent-fg: #1e3a8a;
     --vp-tui-custom-block-info-border: var(--vp-tui-custom-block-info-accent);

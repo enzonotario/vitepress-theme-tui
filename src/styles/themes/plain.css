@@ -7,7 +7,6 @@
     --vp-tui-border-width: 2px;
     --vp-tui-shadow: none;
 
-    /* Table variables */
     --vp-tui-table-bg: var(--vp-tui-c-bg);
     --vp-tui-table-border-width: var(--vp-tui-border-width);
     --vp-tui-table-border-color: var(--vp-tui-border-color);
@@ -16,7 +15,6 @@
     --vp-tui-table-header-fg: var(--vp-c-text-1);
     --vp-tui-table-header-border-color: var(--vp-tui-border-color);
 
-    /* Sidebar variables */
     --vp-tui-sidebar-bg: var(--vp-c-bg);
     --vp-tui-sidebar-border-color: var(--vp-tui-border-color);
     --vp-tui-sidebar-border-width: var(--vp-tui-border-width);
@@ -26,22 +24,9 @@
     --vp-tui-sidebar-item-hover-bg: var(--vp-c-default-3);
     --vp-tui-sidebar-item-hover-fg: var(--vp-c-text-1);
 
-    /* Rule variables */
+    --vp-tui-h2-border-top: 1px dashed var(--vp-tui-border-color);
     --vp-tui-hr-border-top: 1px dashed var(--vp-tui-border-color);
 
-    /* Heading variables */
-    --vp-tui-h2-border-top: 1px dashed var(--vp-tui-border-color);
-
-    /* Hero variables */
-    --vp-tui-hero-button-border-radius: var(--vp-tui-border-radius);
-    --vp-tui-hero-feature-border-radius: var(--vp-tui-border-radius);
-    --vp-tui-hero-feature-bg: var(--vp-tui-c-bg);
-    --vp-tui-hero-feature-fg: var(--vp-c-text-1);
-    --vp-tui-hero-feature-border-width: var(--vp-tui-border-width);
-    --vp-tui-hero-feature-border-color: var(--vp-tui-border-color);
-    --vp-tui-hero-feature-title-bg: var(--vp-tui-c-bg);
-
-    /* Link variables */
     --vp-tui-link-fg: var(--vp-c-text-2);
     --vp-tui-link-active-fg: var(--vp-c-text-1);
     --vp-tui-link-visited-fg: var(--vp-c-purple-1);
@@ -50,7 +35,6 @@
     --vp-tui-link-hover-bg: var(--vp-c-text-1);
     --vp-tui-link-hover-border-color: var(--vp-c-gray-1);
 
-    /* Inline Code variables */
     --vp-tui-inline-code-bg: var(--vp-code-bg);
     --vp-tui-inline-code-fg: var(--vp-c-text-1);
     --vp-tui-inline-code-border-width: 1px;
@@ -58,20 +42,17 @@
     --vp-tui-inline-code-border-color: var(--vp-c-divider);
     --vp-tui-code-border-radius: 0;
 
-    /* Blockquote variables */
     --vp-tui-blockquote-border-color: var(--vp-tui-border-color);
     --vp-tui-blockquote-border-style: dashed;
     --vp-tui-blockquote-bg: var(--vp-tui-c-bg);
     --vp-tui-blockquote-fg: inherit;
 
-    /* Aside variables */
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
     --vp-tui-aside-marker-bg: var(--vp-tui-c-bg);
     --vp-tui-aside-marker-fg: var(--vp-c-brand-1);
 
-    /* Code Group variables */
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;
     --vp-tui-code-group-border-color: var(--vp-c-text-1);
@@ -90,7 +71,14 @@
     --vp-tui-code-copy-border-color-hover: var(--vp-c-text-2);
     --vp-tui-code-copy-border-width: 1px;
 
-    /* Custom Blocks variables */
+    --vp-tui-hero-button-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-hero-feature-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-hero-feature-bg: var(--vp-tui-c-bg);
+    --vp-tui-hero-feature-fg: var(--vp-c-text-1);
+    --vp-tui-hero-feature-border-width: var(--vp-tui-border-width);
+    --vp-tui-hero-feature-border-color: var(--vp-tui-border-color);
+    --vp-tui-hero-feature-title-bg: var(--vp-tui-c-bg);
+
     --vp-tui-custom-block-info-accent: var(--vp-c-brand-1);
     --vp-tui-custom-block-info-accent-fg: var(--vp-c-bg);
     --vp-tui-custom-block-info-border: var(--vp-tui-custom-block-info-accent);
