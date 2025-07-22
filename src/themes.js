@@ -1,5 +1,9 @@
 export const themes = [
   {
+    name: 'plain',
+    label: 'Plain',
+  },
+  {
     name: 'default',
     label: 'Default',
   },
