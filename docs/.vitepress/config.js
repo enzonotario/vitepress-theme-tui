@@ -39,6 +39,7 @@ export default defineConfig({
     ],
   },
   head: [
+    // Google Analytics
     [
       'script',
       { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${gaId}` },
@@ -51,5 +52,18 @@ export default defineConfig({
       gtag('js', new Date());
       gtag('config', '${gaId}');`,
     ],
+
+    // OG Tags
+    ['meta', { property: 'og:title', content: 'VitePress Theme TUI' }],
+    ['meta', { property: 'og:description', content: 'Bring the beauty of Terminal UIs to your documentation' }],
+    ['meta', { property: 'og:image', content: 'https://vitepress-theme-tui.vercel.app/og.png' }],
+    ['meta', { property: 'og:url', content: 'https://vitepress-theme-tui.vercel.app/' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+
+    // Twitter Tags
+    ['meta', { name: 'twitter:title', content: 'VitePress Theme TUI' }],
+    ['meta', { name: 'twitter:description', content: 'Bring the beauty of Terminal UIs to your documentation' }],
+    ['meta', { name: 'twitter:image', content: 'https://vitepress-theme-tui.vercel.app/og.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
 })
