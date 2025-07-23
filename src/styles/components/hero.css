@@ -6,6 +6,10 @@
     border-radius: var(--vp-tui-hero-button-border-radius) !important;
   }
 
+  .VPFeatures .items {
+    row-gap: 16px !important;
+  }
+
   .VPFeature {
     border-radius: var(--vp-tui-hero-feature-border-radius) !important;
     background-color: var(--vp-tui-hero-feature-bg) !important;
@@ -30,5 +34,25 @@
 
   .VPFeature .details {
     color: var(--vp-tui-hero-feature-fg) !important;
+  }
+
+  .VPFeature .icon {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    background-color: var(--vp-tui-hero-feature-title-bg) !important;
+    align-self: flex-start !important;
+    justify-self: flex-start !important;
+  }
+
+  .VPFeature .icon + .title {
+    margin-left: 48px !important;
+    margin-top: -54px !important;
+  }
+
+  .VPFeature .icon img {
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
