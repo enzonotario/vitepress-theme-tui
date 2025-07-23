@@ -19,5 +19,9 @@ features:
     details: Includes custom components with terminal-style design like.
 ---
 
+<div class="w-full max-w-sm mx-auto">
+
 > [!TIP] GitHub
 > Check out the [GitHub repository](https://github.com/enzonotario/vitepress-theme-tui).
+
+</div>
