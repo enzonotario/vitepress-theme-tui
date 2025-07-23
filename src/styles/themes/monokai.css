@@ -81,8 +81,8 @@
     --vp-tui-aside-border-color: #a6e22e;
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
-    --vp-tui-aside-marker-bg: var(--vp-c-bg);
-    --vp-tui-aside-marker-fg: #a6e22e;
+    --vp-tui-aside-item-hover-bg: #f92672;
+    --vp-tui-aside-item-hover-fg: #272822;
 
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;
@@ -254,8 +254,8 @@
     --vp-tui-aside-border-color: #a6e22e;
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
-    --vp-tui-aside-marker-bg: var(--vp-c-bg);
-    --vp-tui-aside-marker-fg: #a6e22e;
+    --vp-tui-aside-item-hover-bg: #f92672;
+    --vp-tui-aside-item-hover-fg: #272822;
 
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;

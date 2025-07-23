@@ -1,5 +1,5 @@
 ---
-outline: [1,2,3]
+outline: [1, 4]
 ---
 
 # `vitepress-theme-tui` Example

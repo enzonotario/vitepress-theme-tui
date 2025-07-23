@@ -4,6 +4,9 @@
     --vp-tui-border-radius: 0;
     --vp-tui-border-width: 2px;
     --vp-tui-font-family: 'IBM Plex Mono', monospace;
+
+    --vp-tui-aside-indicator-left: 20px;
+    --vp-tui-aside-indicator-width: 200px;
   }
 
   * {

@@ -50,8 +50,8 @@
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
-    --vp-tui-aside-marker-bg: var(--vp-tui-c-bg);
-    --vp-tui-aside-marker-fg: var(--vp-c-brand-1);
+    --vp-tui-aside-item-hover-bg: var(--vp-c-default-3);
+    --vp-tui-aside-item-hover-fg: var(--vp-c-text-1);
 
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;

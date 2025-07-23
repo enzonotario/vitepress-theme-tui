@@ -88,8 +88,8 @@
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
-    --vp-tui-aside-marker-bg: var(--vp-tui-c-bg);
-    --vp-tui-aside-marker-fg: var(--vp-c-brand-1);
+    --vp-tui-aside-item-hover-bg: #27272a;
+    --vp-tui-aside-item-hover-fg: #f4f4f5;
 
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;
@@ -220,8 +220,8 @@
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
-    --vp-tui-aside-marker-bg: var(--vp-tui-c-bg);
-    --vp-tui-aside-marker-fg: var(--vp-c-brand-1);
+    --vp-tui-aside-item-hover-bg: #e4e4e7;
+    --vp-tui-aside-item-hover-fg: #18181b;
 
     --vp-tui-code-group-border-color: #d4d4d8;
     --vp-tui-code-group-tabs-bg: #27272a;
