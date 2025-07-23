@@ -1,7 +1,6 @@
 ---
 layout: home
 hero:
-  name: vitepress-theme-tui
   text: A Terminal-Style Theme for VitePress
   tagline: Bring the beauty of Terminal UIs to your documentation
   actions:
