@@ -1,5 +1,6 @@
 @layer components {
   .vp-doc h2 {
     border-top: var(--vp-tui-h2-border-top) !important;
+    border-radius: 0 !important;
   }
 }

@@ -15,6 +15,7 @@
 
   .VPDocFooter .prev-next {
     border-top: var(--vp-tui-footer-border-width) solid var(--vp-tui-footer-border-color) !important;
+    border-radius: 0 !important;
   }
 
   .VPDocFooter .pager-link {

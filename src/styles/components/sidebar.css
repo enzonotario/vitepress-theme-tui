@@ -1,6 +1,7 @@
 @layer components {
   .VPSidebar {
     border-right: var(--vp-tui-sidebar-border-width) solid var(--vp-tui-sidebar-border-color) !important;
+    border-radius: 0 !important;
   }
 
   .VPSidebarItem .item {
@@ -71,6 +72,7 @@
 
   .VPNavBar.has-sidebar .wrapper {
     background-color: var(--vp-nav-bg-color) !important;
+    border-radius: 0 !important;
   }
   .VPNavBar.has-sidebar .content-body {
     background-color: transparent !important;
@@ -86,5 +88,6 @@
 
   .VPNav {
     border-bottom: var(--vp-tui-sidebar-border-width) solid var(--vp-tui-sidebar-border-color) !important;
+    border-radius: 0 !important;
   }
 }

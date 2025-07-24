@@ -6,6 +6,7 @@
   .VPDocAsideOutline .VPDocOutlineItem.nested {
     margin-left: 4px !important;
     border-left: var(--vp-tui-aside-border-width) var(--vp-tui-aside-border-style) var(--vp-tui-aside-border-color) !important;
+    border-radius: 0 !important;
   }
 
   .VPDocAsideOutline .outline-link {

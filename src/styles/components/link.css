@@ -3,6 +3,7 @@
     color: var(--vp-tui-link-fg) !important;
     text-decoration: none !important;
     border-bottom: 1px solid var(--vp-tui-link-border-color) !important;
+    border-radius: 0 !important;
     transition:
       color 0.2s,
       border-color 0.2s !important;
@@ -14,6 +15,7 @@
   .vp-doc a:not(:has(img)):visited:hover {
     color: var(--vp-tui-link-hover-fg) !important;
     border-bottom: 1px solid var(--vp-tui-link-hover-border-color) !important;
+    border-radius: 0 !important;
     background-color: var(--vp-tui-link-hover-bg) !important;
   }
 

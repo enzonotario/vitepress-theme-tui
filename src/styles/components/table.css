@@ -1,4 +1,8 @@
 @layer components {
+  .vp-doc table {
+    border-radius: 0 !important;
+  }
+
   .vp-doc tr {
     background-color: var(--vp-tui-table-bg) !important;
     border-top: var(--vp-tui-table-border-width) solid var(--vp-tui-table-border-color) !important;
@@ -11,11 +15,13 @@
   .vp-doc th,
   .vp-doc td {
     border: var(--vp-tui-table-border-width) solid var(--vp-tui-table-border-color) !important;
+    border-radius: 0 !important;
   }
 
   .vp-doc th {
     background-color: var(--vp-tui-table-header-bg) !important;
     color: var(--vp-tui-table-header-fg) !important;
+    border-radius: 0 !important;
   }
   .vp-doc th:not(:last-child) {
     border-right-color: var(--vp-tui-table-header-border-color) !important;
