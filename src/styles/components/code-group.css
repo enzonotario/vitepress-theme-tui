@@ -32,6 +32,7 @@
   .vp-code-group .tabs label {
     height: 28px !important;
     line-height: 28px !important;
+    border-radius: var(--vp-tui-code-group-tabs-label-active-border-radius) !important;
   }
 
   .vp-code-group input:checked + label {
