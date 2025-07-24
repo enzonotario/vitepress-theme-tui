@@ -71,7 +71,7 @@
     --vp-tui-inline-code-border-width: 1px;
     --vp-tui-inline-code-border-style: solid;
     --vp-tui-inline-code-border-color: #f92672;
-    --vp-tui-code-border-radius: 0;
+    --vp-tui-inline-code-border-radius: 0;
 
     --vp-tui-blockquote-border-color: #a6e22e;
     --vp-tui-blockquote-border-style: dashed;
@@ -244,7 +244,7 @@
     --vp-tui-inline-code-border-width: 1px;
     --vp-tui-inline-code-border-style: solid;
     --vp-tui-inline-code-border-color: #f92672;
-    --vp-tui-code-border-radius: 0;
+    --vp-tui-inline-code-border-radius: 0;
 
     --vp-tui-blockquote-border-color: #a6e22e;
     --vp-tui-blockquote-border-style: dashed;

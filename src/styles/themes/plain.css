@@ -40,7 +40,7 @@
     --vp-tui-inline-code-border-width: 1px;
     --vp-tui-inline-code-border-style: solid;
     --vp-tui-inline-code-border-color: var(--vp-c-divider);
-    --vp-tui-code-border-radius: 0;
+    --vp-tui-inline-code-border-radius: 0;
 
     --vp-tui-blockquote-border-color: var(--vp-tui-border-color);
     --vp-tui-blockquote-border-style: dashed;

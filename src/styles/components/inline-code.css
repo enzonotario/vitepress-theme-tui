@@ -4,6 +4,6 @@
     color: var(--vp-tui-inline-code-fg) !important;
     border: var(--vp-tui-inline-code-border-width) var(--vp-tui-inline-code-border-style)
       var(--vp-tui-inline-code-border-color) !important;
-    border-radius: var(--vp-tui-code-border-radius) !important;
+    border-radius: var(--vp-tui-inline-code-border-radius) !important;
   }
 }
