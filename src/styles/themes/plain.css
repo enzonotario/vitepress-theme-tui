@@ -63,8 +63,8 @@
     --vp-tui-code-group-tabs-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-group-tabs-bg: var(--vp-c-bg-soft);
     --vp-tui-code-group-tabs-border-color: var(--vp-c-text-1);
-    --vp-tui-code-group-tabs-label-bg-active: var(--vp-c-text-1);
-    --vp-tui-code-group-tabs-label-fg-active: var(--vp-c-bg);
+    --vp-tui-code-group-tabs-label-active-bg: var(--vp-c-text-1);
+    --vp-tui-code-group-tabs-label-active-fg: var(--vp-c-bg);
     --vp-tui-code-group-tabs-label-active-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-copy-bg: var(--vp-c-bg-soft);
     --vp-tui-code-copy-bg-hover: var(--vp-c-gray-3);

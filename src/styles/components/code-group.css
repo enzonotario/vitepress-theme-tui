@@ -36,8 +36,8 @@
   }
 
   .vp-code-group input:checked + label {
-    background-color: var(--vp-tui-code-group-tabs-label-bg-active) !important;
-    color: var(--vp-tui-code-group-tabs-label-fg-active) !important;
+    background-color: var(--vp-tui-code-group-tabs-label-active-bg) !important;
+    color: var(--vp-tui-code-group-tabs-label-active-fg) !important;
   }
 
   .vp-code-group input:checked + label:after {

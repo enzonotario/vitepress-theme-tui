@@ -94,8 +94,8 @@
     --vp-tui-code-group-tabs-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-group-tabs-bg: #f8f8f2;
     --vp-tui-code-group-tabs-border-color: #f92672;
-    --vp-tui-code-group-tabs-label-bg-active: #f92672;
-    --vp-tui-code-group-tabs-label-fg-active: #f8f8f2;
+    --vp-tui-code-group-tabs-label-active-bg: #f92672;
+    --vp-tui-code-group-tabs-label-active-fg: #f8f8f2;
     --vp-tui-code-group-tabs-label-active-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-copy-bg: #f8f8f2;
     --vp-tui-code-copy-bg-hover: #fff;
@@ -269,8 +269,8 @@
     --vp-tui-code-group-tabs-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-group-tabs-bg: #272822;
     --vp-tui-code-group-tabs-border-color: #f92672;
-    --vp-tui-code-group-tabs-label-bg-active: #f92672;
-    --vp-tui-code-group-tabs-label-fg-active: #f8f8f2;
+    --vp-tui-code-group-tabs-label-active-bg: #f92672;
+    --vp-tui-code-group-tabs-label-active-fg: #f8f8f2;
     --vp-tui-code-group-tabs-label-active-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-copy-bg: #272822;
     --vp-tui-code-copy-bg-hover: #3e3d32;
