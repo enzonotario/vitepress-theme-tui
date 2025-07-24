@@ -88,6 +88,7 @@
     --vp-tui-code-group-border-width: 2px;
     --vp-tui-code-group-border-color: #f92672;
     --vp-tui-code-group-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-code-group-standalone-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-group-bg: transparent;
     --vp-tui-code-group-tabs-border-style: solid;
     --vp-tui-code-group-tabs-border-width: 2px;
@@ -263,6 +264,7 @@
     --vp-tui-code-group-border-width: 2px;
     --vp-tui-code-group-border-color: #f92672;
     --vp-tui-code-group-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-code-group-standalone-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-group-bg: transparent;
     --vp-tui-code-group-tabs-border-style: solid;
     --vp-tui-code-group-tabs-border-width: 2px;

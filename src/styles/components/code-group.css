@@ -1,7 +1,7 @@
 @layer components {
   .vp-adaptive-theme:not(.vp-code-group) {
     background-color: var(--vp-tui-code-group-bg) !important;
-    border-radius: var(--vp-tui-code-group-border-radius) !important;
+    border-radius: var(--vp-tui-code-group-standalone-border-radius, var(--vp-tui-code-group-border-radius)) !important;
     border-style: var(--vp-tui-code-group-border-style) !important;
     border-color: var(--vp-tui-code-group-border-color) !important;
     border-width: var(--vp-tui-code-group-border-width) !important;
