@@ -1,5 +1,5 @@
 @layer components {
-  .vp-doc a {
+  .vp-doc a:not(:has(img)) {
     color: var(--vp-tui-link-fg) !important;
     text-decoration: none !important;
     border-bottom: 1px solid var(--vp-tui-link-border-color) !important;
@@ -9,19 +9,19 @@
     padding: 0 2px !important;
   }
 
-  .vp-doc a:hover,
-  .vp-doc a:active:hover,
-  .vp-doc a:visited:hover {
+  .vp-doc a:not(:has(img)):hover,
+  .vp-doc a:not(:has(img)):active:hover,
+  .vp-doc a:not(:has(img)):visited:hover {
     color: var(--vp-tui-link-hover-fg) !important;
     border-bottom: 1px solid var(--vp-tui-link-hover-border-color) !important;
     background-color: var(--vp-tui-link-hover-bg) !important;
   }
 
-  .vp-doc a:active {
+  .vp-doc a:not(:has(img)):active {
     color: var(--vp-tui-link-active-fg) !important;
   }
 
-  .vp-doc a:visited {
+  .vp-doc a:not(:has(img)):visited {
     color: var(--vp-tui-link-visited-fg) !important;
   }
 }
