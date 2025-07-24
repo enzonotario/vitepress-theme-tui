@@ -55,7 +55,10 @@
   }
 
   .vp-doc [class*='language-'] {
-    margin: 0 0 16px 0 !important;
+    margin: 16px 0 !important;
+  }
+  .vp-code-group .blocks .vp-adaptive-theme {
+    margin-top: 0 !important;
   }
   .vp-code-group .tabs {
     margin-left: 0 !important;
