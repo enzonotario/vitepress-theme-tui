@@ -8,7 +8,9 @@
     --vp-tui-aside-indicator-left: 20px;
     --vp-tui-aside-indicator-width: 200px;
   }
+}
 
+@layer overrides {
   * {
     border-radius: var(--vp-tui-border-radius) !important;
     font-family: var(--vp-tui-font-family) !important;
