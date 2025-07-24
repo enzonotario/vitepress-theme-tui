@@ -98,6 +98,7 @@
     --vp-tui-code-group-bg: transparent;
     --vp-tui-code-group-tabs-border-style: solid;
     --vp-tui-code-group-tabs-border-width: 2px;
+    --vp-tui-code-group-tabs-border-radius: var(--vp-tui-border-radius);
     --vp-tui-code-group-tabs-bg: #f4f4f5;
     --vp-tui-code-group-tabs-border-color: #18181b;
     --vp-tui-code-group-tabs-label-bg-active: #18181b;
