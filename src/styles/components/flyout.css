@@ -1,0 +1,17 @@
+@layer components {
+  :root {
+    --vp-tui-flyout-menu-border-radius: var(--vp-tui-border-radius);
+    --vp-tui-flyout-menu-border-width: var(--vp-tui-border-width);
+    --vp-tui-flyout-menu-border-color: var(--vp-tui-border-color);
+  }
+
+  .VPFlyout .VPMenu {
+    border-radius: var(--vp-tui-flyout-menu-border-radius) !important;
+    border: var(--vp-tui-flyout-menu-border-width) solid var(--vp-tui-flyout-menu-border-color) !important;
+  }
+
+  .VPFlyout .VPMenu  .group + .group {
+    border-top: 1px dashed var(--vp-tui-sidebar-border-color) !important;
+    border-radius: 0 !important;
+  }
+}

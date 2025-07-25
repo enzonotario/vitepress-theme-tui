@@ -15,5 +15,6 @@
 @import 'components/heading.css';
 @import 'components/rule.css';
 @import 'components/footer.css';
+@import 'components/flyout.css';
 
 @import 'themes/index.css';
