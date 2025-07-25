@@ -10,6 +10,7 @@
     --vp-tui-table-bg: var(--vp-tui-c-bg);
     --vp-tui-table-border-width: var(--vp-tui-border-width);
     --vp-tui-table-border-color: var(--vp-tui-border-color);
+    --vp-tui-table-border-radius: var(--vp-tui-border-radius);
     --vp-tui-table-row-alt-bg: var(--vp-c-default-3);
     --vp-tui-table-header-bg: var(--vp-c-default-1);
     --vp-tui-table-header-fg: var(--vp-c-text-1);

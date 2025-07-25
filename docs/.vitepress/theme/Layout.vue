@@ -8,7 +8,8 @@ const { Layout } = DefaultTheme
 <template>
   <Layout>
     <template #nav-bar-content-before>
-      <div class="w-full flex flex-row justify-end px-1 md:px-3">
+      <div class="w-full hidden sm:flex flex-row justify-end gap-2 px-1 md:px-3">
+        <ThemeConfig />
         <ThemeSwitcher />
       </div>
     </template>

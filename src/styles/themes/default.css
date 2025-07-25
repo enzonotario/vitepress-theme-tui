@@ -48,6 +48,7 @@
     --vp-tui-table-bg: #ffffff;
     --vp-tui-table-border-width: var(--vp-tui-border-width);
     --vp-tui-table-border-color: #27272a;
+    --vp-tui-table-border-radius: var(--vp-tui-border-radius);
     --vp-tui-table-row-alt-bg: #d4d4d8;
     --vp-tui-table-header-bg: #27272a;
     --vp-tui-table-header-fg: #f4f4f5;
