@@ -29,6 +29,10 @@ yarn add vitepress-theme-tui
 pnpm add vitepress-theme-tui
 ```
 
+```bash [bun]
+bun add vitepress-theme-tui
+```
+
 :::
 
 ## Basic Configuration
