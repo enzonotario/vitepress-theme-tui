@@ -22,7 +22,7 @@ features:
     icon: <img src="https://img.icons8.com/?size=48&id=gPS47EOOeWUd&format=png" alt="components"/>
 ---
 
-<div class="w-full max-w-sm mx-auto">
+<div class="w-full md:max-w-1/3 mx-auto md:p-[8px] mt-10">
 
 > [!TIP] GitHub
 > Check out the [GitHub repository](https://github.com/enzonotario/vitepress-theme-tui).
