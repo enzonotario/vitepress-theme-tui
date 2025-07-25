@@ -4,6 +4,11 @@
     border-radius: 0 !important;
   }
 
+  .VPSidebar  .group + .group {
+    border-top: 1px dashed var(--vp-tui-sidebar-border-color) !important;
+    border-radius: 0 !important;
+  }
+
   .VPSidebarItem .item {
     position: relative !important;
   }
