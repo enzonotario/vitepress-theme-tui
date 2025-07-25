@@ -83,6 +83,11 @@
     background-color: transparent !important;
   }
 
+  .VPLocalNav.has-sidebar {
+    border-color: var(--vp-tui-sidebar-border-color) !important;
+    border-radius: 0 !important;
+  }
+
   .VPNavBarTitle a.title {
     border-bottom: none !important;
   }

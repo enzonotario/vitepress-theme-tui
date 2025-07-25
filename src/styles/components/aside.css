@@ -1,19 +1,35 @@
 @layer components {
-  .VPDocAsideOutline .content {
+  .VPLocalNav .items  {
+    background-color: var(--vp-tui-aside-border-color) !important;
+    border-color: var(--vp-tui-aside-border-color) !important;
+  }
+  .VPLocalNav .header {
+    border-radius: 0 !important;
+  }
+  .VPLocalNav .outline {
+    outline-style: none !important;
+    border-radius: 0 !important;
+  }
+
+  .VPDocAsideOutline .content,
+  .VPDocOutlineItem .content {
     border-left: none !important;
   }
 
-  .VPDocAsideOutline .VPDocOutlineItem.nested {
+  .VPDocAsideOutline .VPDocOutlineItem.nested,
+  .VPDocOutlineItem .VPDocOutlineItem.nested {
     margin-left: 4px !important;
     border-left: var(--vp-tui-aside-border-width) var(--vp-tui-aside-border-style) var(--vp-tui-aside-border-color) !important;
     border-radius: 0 !important;
   }
 
-  .VPDocAsideOutline .outline-link {
+  .VPDocAsideOutline .outline-link,
+  .VPDocOutlineItem .outline-link {
     position: relative !important;
   }
 
-  .VPDocAsideOutline .outline-link::before {
+  .VPDocAsideOutline .outline-link::before,
+  .VPDocOutlineItem .outline-link::before {
     margin-right: 8px !important;
     color: var(--vp-tui-aside-border-color) !important;
   }
@@ -34,15 +50,20 @@
     content: '├─' !important;
   }
 
-  .VPDocAsideOutline .outline-link:hover, .VPDocAsideOutline .outline-link:hover::before {
+  .VPDocAsideOutline .outline-link:hover,
+  .VPDocAsideOutline .outline-link:hover::before,
+  .VPDocOutlineItem .outline-link:hover,
+  .VPDocOutlineItem .outline-link:hover::before {
     color: var(--vp-tui-aside-item-hover-fg) !important;
     background-color: var(--vp-tui-aside-item-hover-bg) !important;
   }
 
-  .VPDocAsideOutline .outline-marker {
+  .VPDocAsideOutline .outline-marker,
+  .VPDocOutlineItem .outline-marker {
     width: 0 !important;
   }
-  .VPDocAsideOutline .outline-marker::before {
+  .VPDocAsideOutline .outline-marker::before,
+  .VPDocOutlineItem .outline-marker::before {
     content: '' !important;
     position: absolute !important;
     left: var(--vp-tui-aside-indicator-left, 0) !important;
