@@ -135,6 +135,29 @@ export default defineConfig({
 })
 ```
 
+## Style Isolation with `vp-tui-raw`
+
+VitePress Theme TUI includes a feature that allows you to isolate content from the theme's styles. This is useful when you want to display content with the default VitePress styling instead of the terminal-inspired styling.
+
+To use this feature, wrap your content in a div with the `vp-tui-raw` class:
+
+```md
+<div class="vp-tui-raw">
+
+# This content is not affected by the theme's styles
+
+Regular markdown content here will use the default VitePress styling.
+
+\`\`\`javascript
+// Code blocks will use default styling
+const example = 'Hello, world!';
+\`\`\`
+
+> Blockquotes will use default styling
+
+</div>
+```
+
 ## Next Steps
 
 Now that you have installed and configured VitePress Theme TUI, you can:

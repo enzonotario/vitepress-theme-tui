@@ -51,6 +51,5 @@ export default {
   border: var(--vp-tui-border-width) solid var(--vp-tui-border-color);
   background-color: var(--vp-tui-c-bg);
   color: var(--vp-tui-link-fg);
-  font-family: var(--vp-tui-font-family);
 }
 </style>

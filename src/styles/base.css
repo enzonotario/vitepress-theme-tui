@@ -11,8 +11,12 @@
 }
 
 @layer overrides {
-  * {
+  :not(.vp-tui-raw *) {
     border-radius: var(--vp-tui-border-radius) !important;
     font-family: var(--vp-tui-font-family) !important;
+  }
+
+  .vp-tui-raw * {
+    font-family: var(--vp-font-family-base) !important;
   }
 }

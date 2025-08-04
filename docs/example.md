@@ -221,3 +221,54 @@ export default config;
 ```
 
 :::
+
+## Style Isolation with vp-tui-raw
+
+The `vp-tui-raw` class allows you to display content with the default VitePress styling instead of `vitepress-theme-tui` styling.
+
+<div class="vp-tui-raw">
+
+# Default VitePress Heading
+
+This content uses the default VitePress styling instead of the terminal-inspired styling.
+
+### Code Blocks Example
+
+```js
+// This code block uses default VitePress styling
+function example() {
+  console.log('Hello, VitePress!');
+  return 'Default styling';
+}
+```
+
+### Blockquotes Example
+
+> This blockquote uses the default VitePress styling.
+> 
+> It looks different from the terminal-styled blockquotes.
+
+### Mixed Content Example
+
+# Mixed Content
+
+This section contains various elements with default styling:
+
+- List item 1
+- List item 2
+- List item 3
+
+```js
+// Code block with default styling
+const message = 'Hello, VitePress!';
+console.log(message);
+```
+
+> A blockquote with default styling
+
+| Column 1 | Column 2 |
+| -------- | -------- |
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+
+</div>

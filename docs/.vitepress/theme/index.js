@@ -5,7 +5,6 @@ import ThemeConfig from './components/ThemeConfig.vue'
 import { useTuiConfig } from './composables/useTuiConfig.js'
 import Layout from './Layout.vue'
 import 'virtual:uno.css'
-import '../../../src/styles/index.css'
 import './style.css'
 
 export default {

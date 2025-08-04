@@ -33,6 +33,12 @@ importers:
       eslint-plugin-format:
         specifier: ^1.0.1
         version: 1.0.1(eslint@9.31.0(jiti@2.4.2))
+      postcss:
+        specifier: ^8.5.6
+        version: 8.5.6
+      postcss-prefix-selector:
+        specifier: ^1.16.0
+        version: 1.16.1(postcss@8.5.6)
       unocss:
         specifier: ^66.3.3
         version: 66.3.3(postcss@8.5.6)(vite@7.0.4(jiti@2.4.2)(sass@1.89.2)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))
@@ -2141,6 +2147,11 @@ packages:
 
   pnpm-workspace-yaml@1.0.0:
     resolution: {integrity: sha512-2RKg3khFgX/oeKIQnxxlj+OUoKbaZjBt7EsmQiLfl8AHZKMIpLmXLRPptZ5eq2Rlumh2gILs6OWNky5dzP+f8A==}
+
+  postcss-prefix-selector@1.16.1:
+    resolution: {integrity: sha512-Umxu+FvKMwlY6TyDzGFoSUnzW+NOfMBLyC1tAkIjgX+Z/qGspJeRjVC903D7mx7TuBpJlwti2ibXtWuA7fKMeQ==}
+    peerDependencies:
+      postcss: '>4 <9'
 
   postcss-selector-parser@6.1.2:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
@@ -4881,6 +4892,10 @@ snapshots:
   pnpm-workspace-yaml@1.0.0:
     dependencies:
       yaml: 2.8.0
+
+  postcss-prefix-selector@1.16.1(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
 
   postcss-selector-parser@6.1.2:
     dependencies:

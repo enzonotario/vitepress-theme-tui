@@ -1,7 +1,5 @@
 @layer base, components, theme, overrides;
 
-@import 'base.css';
-
 @import 'components/table.css';
 @import 'components/code-group.css';
 @import 'components/inline-code.css';
