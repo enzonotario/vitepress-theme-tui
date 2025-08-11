@@ -1,9 +1,4 @@
----
-title: TUI Card Component
-description: Learn how to use the TUI Card component in vitepress-theme-tui
----
-
-# TUI Card Component
+# tui-card
 
 The TUI Card component provides a simple and flexible way to create card-style UI elements with the TUI theme styling. Cards can be used to group related content and actions in a visually distinct container.
 

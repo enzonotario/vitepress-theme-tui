@@ -19,7 +19,8 @@ export default defineConfig({
             text: 'Components',
             link: '/components/tui-card',
             items: [
-              { text: 'TUI Card', link: '/components/tui-card' },
+              { text: 'Card', link: '/components/tui-card' },
+              { text: 'Timeline', link: '/components/tui-timeline' },
             ],
           },
         ],
