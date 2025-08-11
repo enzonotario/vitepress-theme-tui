@@ -157,10 +157,3 @@ const example = 'Hello, world!';
 
 </div>
 ```
-
-## Next Steps
-
-Now that you have installed and configured VitePress Theme TUI, you can:
-
-- Learn about the [custom components](/components/tui-card)
-- Check out the [Example](/example) page to see the theme in action
