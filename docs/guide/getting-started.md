@@ -43,37 +43,8 @@ bun add vitepress-theme-tui
 
 ```js [.vitepress/theme/index.js]
 import DefaultTheme from 'vitepress/theme'
-import 'vitepress-theme-tui/style.css'
-
-export default {
-  extends: DefaultTheme,
-}
-```
-
-```ts [.vitepress/theme/index.ts]
-import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import 'vitepress-theme-tui/style.css'
-
-export default {
-  extends: DefaultTheme,
-} satisfies Theme
-```
-
-:::
-
-That's it! Your VitePress site now uses the Terminal UI theme.
-
-## Advanced Configuration
-
-### Default Theme
-
-You can set the default theme by modifying your VitePress configuration:
-
-```js [.vitepress/config.js]
 import { useTUI } from 'vitepress-theme-tui' // [!code ++]
-import DefaultTheme from 'vitepress/theme'
-import 'vitepress-theme-tui/dist/style.css' // [!code ++]
+import 'vitepress-theme-tui/style.css' // [!code ++]
 
 export default {
   extends: DefaultTheme,
@@ -85,13 +56,29 @@ export default {
 }
 ```
 
-This script will run before the page renders and apply the saved theme or the default theme.
+```ts [.vitepress/theme/index.ts]
+import type { Theme } from 'vitepress'
+import DefaultTheme from 'vitepress/theme'
+import { useTUI } from 'vitepress-theme-tui' // [!code ++]
+import 'vitepress-theme-tui/style.css' // [!code ++]
 
-### Configuring Fonts
+export default {
+  extends: DefaultTheme,
+  enhanceApp(ctx) {
+    useTUI({ // [!code ++]
+      theme: 'default', // Optionally set a default theme. // [!code ++]
+    }) // [!code ++]
+  }
+} satisfies Theme
+```
+
+:::
+
+## Configuring Fonts
 
 You can customize the fonts used in your documentation site using either Google Fonts or UnoCSS.
 
-#### Using Google Fonts
+### Using Google Fonts
 
 To use Google Fonts, add the following to your VitePress configuration:
 
@@ -116,7 +103,7 @@ export default {
 
 For more information, see the [VitePress documentation on adding Google Fonts](https://vitepress.dev/reference/site-config#example-adding-google-fonts).
 
-#### Using UnoCSS
+### Using UnoCSS
 
 If you prefer to use UnoCSS for font management, you can install the necessary presets and configure them in your UnoCSS configuration file.
 
