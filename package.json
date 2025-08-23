@@ -32,7 +32,7 @@
   },
   "scripts": {
     "build": "vite build",
-    "docs:build": "vitepress build docs",
+    "docs:build": "pnpm run build && vitepress build docs",
     "dev": "vitepress dev docs",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
