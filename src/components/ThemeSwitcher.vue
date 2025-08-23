@@ -1,34 +1,12 @@
-<script>
-import { onMounted, ref } from 'vue'
-import { getCurrentTheme, setTheme, themes } from '../themes'
-
-export default {
-  name: 'ThemeSwitcher',
-  setup() {
-    const currentTheme = ref('default')
-
-    onMounted(() => {
-      currentTheme.value = getCurrentTheme()
-    })
-
-    const onThemeChange = () => {
-      setTheme(currentTheme.value)
-    }
-
-    return {
-      currentTheme,
-      themes,
-      onThemeChange,
-    }
-  },
-}
+<script setup lang="ts">
+import { currentTheme, setTheme, themes } from '../themes'
 </script>
 
 <template>
   <div class="tui-card xs">
     <label for="theme-select" class="tui-card-title">Theme</label>
     <div class="tui-card-content">
-      <select id="theme-select" v-model="currentTheme" @change="onThemeChange">
+      <select id="theme-select" :value="currentTheme" @change="setTheme($event.target.value)">
         <option v-for="theme in themes" :key="theme.name" :value="theme.name">
           {{ theme.label }}
         </option>

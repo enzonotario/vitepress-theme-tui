@@ -1,3 +1,7 @@
+<script setup>
+import { setTheme } from 'vitepress-theme-tui'
+</script>
+
 # Themes
 
 The `vitepress-theme-tui` package provides a flexible theming system for VitePress sites, allowing you to easily switch between themes and customize the appearance of your documentation.
@@ -38,9 +42,7 @@ setTheme('monokai')            // Change to 'monokai' theme
 
 ## Built-in themes
 
-- `default`: Balanced contrast and readability.
-- `monokai`: Inspired by Monokai. Pink and green accents, good contrast for code.
-- `plain`: Uses default VitePress variables, best if you have customized the VitePress theme already.
+<!--@include: ./parts/themes-list.md-->
 
 > [!Note]
 > These classes are applied to the `<html>` element as `tui-theme-{themeName}`. For example, the `default` theme applies `tui-theme-default`.

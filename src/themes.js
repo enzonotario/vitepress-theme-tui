@@ -1,3 +1,5 @@
+import { useStorage } from '@vueuse/core'
+
 export const themes = [
   {
     name: 'plain',
@@ -13,6 +15,8 @@ export const themes = [
   },
 ]
 export const availableThemes = themes.map(theme => theme.name)
+
+export const currentTheme = useStorage('vp-tui-theme', 'default')
 
 export function getCurrentTheme() {
   if (typeof document === 'undefined') {
@@ -48,7 +52,7 @@ export function setTheme(themeName) {
 
   htmlElement.classList.add(`tui-theme-${themeName}`)
 
-  localStorage.setItem('vp-tui-theme', themeName)
+  currentTheme.value = themeName
 
   return true
 }

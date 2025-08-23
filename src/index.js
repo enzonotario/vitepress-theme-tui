@@ -1,8 +1,8 @@
-import { getCurrentTheme, setTheme, themes } from './themes'
+import { currentTheme, getCurrentTheme, setTheme, themes } from './themes'
 import useTUI from './useTUI.js'
 import './styles/base.css'
 import './styles/index.css'
 
 export { useTUI }
 
-export { getCurrentTheme, setTheme, themes }
+export { currentTheme, getCurrentTheme, setTheme, themes }

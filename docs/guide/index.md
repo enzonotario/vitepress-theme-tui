@@ -1,11 +1,16 @@
+<script setup>
+import { setTheme } from 'vitepress-theme-tui'
+</script>
+
 # Introduction
 
-VitePress Theme TUI is a terminal-inspired theme for VitePress documentation sites. It brings the aesthetic and functionality of terminal UIs to your documentation, creating a unique and developer-friendly experience.
+VitePress Theme TUI is a terminal-style theme for VitePress that brings the aesthetics of terminal user interfaces to your documentation site. It offers multiple color themes, custom components, and a clean, minimalist design inspired by terminal applications.
 
-## What is VitePress Theme TUI?
+## Try it online
 
-VitePress Theme TUI is a custom theme for [VitePress](https://vitepress.dev/), a static site generator designed for documentation sites. This theme transforms your documentation into a terminal-like interface, with features such as:
+Check out the [vitepress-theme-tui-starter Stackblitz](https://stackblitz.com/fork/github/enzonotario/vitepress-theme-tui-starter?file=docs/example.md) to quickly try out the theme without any local setup.
 
-- Terminal-style UI with customizable themes
-- Custom components with terminal aesthetics
-- Full compatibility with VitePress Markdown extensions
+## Themes
+
+<!--@include: ../parts/themes-list.md-->
+

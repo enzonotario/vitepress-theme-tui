@@ -49,6 +49,7 @@
     "@unocss/postcss": "^66.3.3",
     "@unocss/preset-web-fonts": "^66.3.3",
     "@vitejs/plugin-vue": "^6.0.0",
+    "@vueuse/core": "^13.7.0",
     "eslint": "^9.31.0",
     "eslint-plugin-format": "^1.0.1",
     "postcss": "^8.5.6",
