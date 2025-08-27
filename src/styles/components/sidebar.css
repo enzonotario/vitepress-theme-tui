@@ -15,14 +15,16 @@
 
   .VPSidebarItem .VPLink::before, .item > h4.text::before {
     margin-right: 8px !important;
+    font-size: 24px;
+    /*transform: scale(0.7, 1);*/
   }
 
   .items > .VPSidebarItem:last-child .VPLink::before, .item > h4.text::before {
-    content: '└─' !important;
+    content: '└' !important;
   }
 
   .items > .VPSidebarItem:not(:last-child) .VPLink::before {
-    content: '├─' !important;
+    content: '├' !important;
   }
 
   .VPSidebarItem .item:hover .VPLink.link, .VPSidebarItem.is-active .item:hover .VPLink.link {

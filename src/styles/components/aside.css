@@ -32,22 +32,24 @@
   .VPDocOutlineItem .outline-link::before {
     margin-right: 8px !important;
     color: var(--vp-tui-aside-border-color) !important;
+    font-size: 20px;
+    margin-left: -1px;
   }
 
   .VPDocOutlineItem.nested > li:last-child > .outline-link::before {
-    content: '└─' !important;
+    content: '└' !important;
   }
 
   .VPDocOutlineItem.nested > li:not(:last-child) > .outline-link::before {
-    content: '├─' !important;
+    content: '├' !important;
   }
 
   .VPDocOutlineItem.root > li:last-child > .outline-link::before {
-    content: '└─' !important;
+    content: '└' !important;
   }
 
   .VPDocOutlineItem.root > li:not(:last-child) > .outline-link::before {
-    content: '├─' !important;
+    content: '├' !important;
   }
 
   .VPDocAsideOutline .outline-link:hover,
