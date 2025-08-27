@@ -21,6 +21,7 @@ export default defineConfig({
             items: [
               { text: 'Card', link: '/components/tui-card' },
               { text: 'Timeline', link: '/components/tui-timeline' },
+              { text: 'Badge', link: '/components/tui-badge' },
             ],
           },
         ],

@@ -1,0 +1,10 @@
+<span class="tui-badge">Default</span>
+<span class="tui-badge primary">Primary</span>
+<span class="tui-badge info">Info</span>
+<span class="tui-badge warning">Warning</span>
+<span class="tui-badge danger">Danger</span>
+<span class="tui-badge outline">Outline</span>
+<span class="tui-badge primary outline">Primary</span>
+<span class="tui-badge info outline">Info</span>
+<span class="tui-badge warning outline">Warning</span>
+<span class="tui-badge danger outline">Danger</span>

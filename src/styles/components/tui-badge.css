@@ -1,0 +1,79 @@
+@layer components {
+  :root {
+    --vp-tui-badge-font-size: var(--vp-code-font-size);
+    --vp-tui-badge-padding: 3px 6px;
+    --vp-tui-badge-radius: var(--vp-tui-border-radius);
+    --vp-tui-badge-bg: #18181b;
+    --vp-tui-badge-fg: #f4f4f5;
+    --vp-tui-badge-border-width: var(--vp-tui-border-width);
+    --vp-tui-badge-outline-color: var(--vp-tui-border-color);
+
+    --vp-tui-badge-primary-bg: var(--vp-tui-card-primary-title-bg);
+    --vp-tui-badge-primary-fg: var(--vp-tui-card-primary-title-fg);
+
+    --vp-tui-badge-info-bg: var(--vp-tui-custom-block-info-title-bg);
+    --vp-tui-badge-info-fg: var(--vp-tui-custom-block-info-title-fg);
+
+    --vp-tui-badge-warning-bg: var(--vp-tui-custom-block-warning-title-bg);
+    --vp-tui-badge-warning-fg: var(--vp-tui-custom-block-warning-title-fg);
+
+    --vp-tui-badge-danger-bg: var(--vp-tui-custom-block-danger-title-bg);
+    --vp-tui-badge-danger-fg: var(--vp-tui-custom-block-danger-title-fg);
+  }
+
+  .dark {
+    --vp-tui-badge-bg: #e4e4e7;
+    --vp-tui-badge-fg: #09090b;
+  }
+
+  /* Base */
+  .tui-badge {
+    padding: var(--vp-tui-badge-padding);
+    font-size: var(--vp-tui-badge-font-size);
+    border-radius: var(--vp-tui-badge-radius);
+    background-color: var(--vp-tui-badge-bg);
+    color: var(--vp-tui-badge-fg);
+  }
+
+  /* Variants (solid) */
+  .tui-badge.primary {
+    background-color: var(--vp-tui-badge-primary-bg);
+    color: var(--vp-tui-badge-primary-fg);
+  }
+  .tui-badge.info {
+    background-color: var(--vp-tui-badge-info-bg);
+    color: var(--vp-tui-badge-info-fg);
+  }
+  .tui-badge.warning {
+    background-color: var(--vp-tui-badge-warning-bg);
+    color: var(--vp-tui-badge-warning-fg);
+  }
+  .tui-badge.danger {
+    background-color: var(--vp-tui-badge-danger-bg);
+    color: var(--vp-tui-badge-danger-fg);
+  }
+
+  /* Variants (outline) */
+  .tui-badge.outline {
+    background-color: transparent;
+    color: var(--vp-tui-badge-outline-color);
+    border-width: var(--vp-tui-badge-border-width);
+    border-color: var(--vp-tui-badge-outline-color);
+  }
+  .tui-badge.primary.outline {
+    border-color: var(--vp-tui-badge-primary-bg);
+    color: var(--vp-tui-badge-primary-bg);
+  }
+  .tui-badge.info.outline {
+    border-color: var(--vp-tui-badge-info-bg);
+    color: var(--vp-tui-badge-info-bg);
+  }
+  .tui-badge.warning.outline {
+    border-color: var(--vp-tui-badge-warning-bg);
+    color: var(--vp-tui-badge-warning-bg);
+  }
+  .tui-badge.danger.outline {
+    border-color: var(--vp-tui-badge-danger-bg);
+    color: var(--vp-tui-badge-danger-bg);
+  }
+}
