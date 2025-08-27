@@ -7,7 +7,7 @@ This guide will help you install and configure VitePress Theme TUI for your docu
 Before installing VitePress Theme TUI, you need to have:
 
 - A VitePress project set up
-- Node.js and npm/yarn/pnpm installed
+- Node.js and npm/yarn/pnpm/bun installed
 
 If you don't have a VitePress project yet, follow the [VitePress installation guide](https://vitepress.dev/guide/getting-started) to create one.
 
