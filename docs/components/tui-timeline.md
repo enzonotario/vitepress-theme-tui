@@ -35,3 +35,15 @@ The Timeline component lets you present events chronologically with a Terminal U
 </ul>
 
 
+
+## Variants
+
+```html
+<ul class="tui-timeline vertical">
+  <!--@include: ./parts/timeline-variants.md-->
+</ul>
+```
+
+<ul class="tui-timeline vertical">
+  <!--@include: ./parts/timeline-variants.md-->
+</ul>

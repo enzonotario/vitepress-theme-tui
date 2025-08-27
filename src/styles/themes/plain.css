@@ -145,5 +145,29 @@
     --vp-tui-custom-block-details-bg: var(--vp-tui-custom-block-details-accent-fg);
     --vp-tui-custom-block-details-fg: var(--vp-c-text-1);
     --vp-tui-custom-block-details-summary-bg: var(--vp-tui-custom-block-details-accent-fg);
+
+    --vp-tui-timeline-primary-axis-color: var(--vp-c-brand-1);
+    --vp-tui-timeline-primary-marker-color: var(--vp-c-brand-1);
+    --vp-tui-timeline-primary-content-bg: var(--vp-tui-c-bg);
+    --vp-tui-timeline-primary-content-fg: inherit;
+    --vp-tui-timeline-primary-content-border-color: var(--vp-c-brand-1);
+
+    --vp-tui-timeline-info-axis-color: var(--vp-tui-custom-block-info-border);
+    --vp-tui-timeline-info-marker-color: var(--vp-tui-custom-block-info-border);
+    --vp-tui-timeline-info-content-bg: var(--vp-tui-c-bg);
+    --vp-tui-timeline-info-content-fg: var(--vp-tui-custom-block-info-fg);
+    --vp-tui-timeline-info-content-border-color: var(--vp-tui-custom-block-info-border);
+
+    --vp-tui-timeline-warning-axis-color: var(--vp-tui-custom-block-warning-border);
+    --vp-tui-timeline-warning-marker-color: var(--vp-tui-custom-block-warning-border);
+    --vp-tui-timeline-warning-content-bg: var(--vp-tui-c-bg);
+    --vp-tui-timeline-warning-content-fg: var(--vp-tui-custom-block-warning-fg);
+    --vp-tui-timeline-warning-content-border-color: var(--vp-tui-custom-block-warning-border);
+
+    --vp-tui-timeline-danger-axis-color: var(--vp-tui-custom-block-danger-border);
+    --vp-tui-timeline-danger-marker-color: var(--vp-tui-custom-block-danger-border);
+    --vp-tui-timeline-danger-content-bg: var(--vp-tui-c-bg);
+    --vp-tui-timeline-danger-content-fg: var(--vp-tui-custom-block-danger-fg);
+    --vp-tui-timeline-danger-content-border-color: var(--vp-tui-custom-block-danger-border);
   }
 }
