@@ -14,7 +14,7 @@
 @import 'components/rule.css';
 @import 'components/footer.css';
 @import 'components/flyout.css';
-@import 'components/timeline.css';
+@import 'components/tui-timeline.css';
 @import 'components/tui-badge.css';
 
 @import 'themes/index.css';
