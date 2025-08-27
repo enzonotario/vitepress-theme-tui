@@ -89,6 +89,7 @@
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
+    --vp-tui-aside-item-active-bg: color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent);
     --vp-tui-aside-item-hover-bg: #27272a;
     --vp-tui-aside-item-hover-fg: #f4f4f5;
 
@@ -224,6 +225,7 @@
     --vp-tui-aside-border-color: var(--vp-tui-border-color);
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
+    --vp-tui-aside-item-active-bg: color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent);
     --vp-tui-aside-item-hover-bg: #e4e4e7;
     --vp-tui-aside-item-hover-fg: #18181b;
 

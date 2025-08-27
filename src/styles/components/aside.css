@@ -56,8 +56,7 @@
   .VPDocAsideOutline .outline-link:hover::before,
   .VPDocOutlineItem .outline-link:hover,
   .VPDocOutlineItem .outline-link:hover::before {
-    color: var(--vp-tui-aside-item-hover-fg) !important;
-    background-color: var(--vp-tui-aside-item-hover-bg) !important;
+    color: var(--vp-c-brand-1) !important;
   }
 
   .VPDocAsideOutline .outline-marker,
@@ -70,11 +69,11 @@
     position: absolute !important;
     left: var(--vp-tui-aside-indicator-left, 0) !important;
     right: 0 !important;
-    bottom: -8px !important;
+    bottom: -9px !important;
     width: var(--vp-tui-aside-indicator-width) !important;
-    height: 0 !important;
+    height: 35px !important;
     transition: left 0.2s, background-color 0.2s !important;
-    border-left: none !important;
-    border-bottom: var(--vp-tui-aside-border-width) var(--vp-tui-aside-border-style) var(--vp-tui-aside-border-color) !important;
+    border: none !important;
+    background-color: var(--vp-tui-aside-item-active-bg) !important;
   }
 }

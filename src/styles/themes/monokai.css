@@ -79,11 +79,12 @@
     --vp-tui-blockquote-bg: var(--vp-tui-c-bg);
     --vp-tui-blockquote-fg: inherit;
 
-    --vp-tui-aside-border-color: #a6e22e;
+    --vp-tui-aside-border-color: #27272a;
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
     --vp-tui-aside-item-hover-bg: #f92672;
     --vp-tui-aside-item-hover-fg: #272822;
+    --vp-tui-aside-item-active-bg: color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent);
 
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;
@@ -255,11 +256,12 @@
     --vp-tui-blockquote-bg: var(--vp-tui-c-bg);
     --vp-tui-blockquote-fg: inherit;
 
-    --vp-tui-aside-border-color: #a6e22e;
+    --vp-tui-aside-border-color: #e4e4e7;
     --vp-tui-aside-border-width: 1px;
     --vp-tui-aside-border-style: dashed;
     --vp-tui-aside-item-hover-bg: #f92672;
     --vp-tui-aside-item-hover-fg: #272822;
+    --vp-tui-aside-item-active-bg: color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent);
 
     --vp-tui-code-group-border-style: solid;
     --vp-tui-code-group-border-width: 2px;
